@@ -16,18 +16,18 @@ struct DetailsView: View {
             
             Image("bg")
                 .resizable()
-                .edgesIgnoringSafeArea(.top)
                 .clipShape(
                     RoundedCornerShape.init(corner: [.bottomLeft, .bottomRight], radius: 50)
                 )
                 .frame(width: .infinity, height: .infinity, alignment: .top)
+                .edgesIgnoringSafeArea(.top)
                 .shadow(color: .gray, radius: 5, y: 5)
                 .overlay(
                     Image(fruitName.rawValue)
                         .resizable()
-                        .frame(width: 250, height: 250, alignment: .center)
+                        .frame(width: 200, height: 200, alignment: .center)
                         .shadow(color: .gray, radius: 5, x: 5, y: 5)
-                        .offset(y: 50)
+                        .offset(y: 30)
                 )
             
             Spacer()
