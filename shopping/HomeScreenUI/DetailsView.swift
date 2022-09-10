@@ -97,7 +97,7 @@ struct DetailsView: View {
 
 struct DetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailsView(fruitName: .apple)
+        DetailsView(fruitName: .dragonfruit)
     }
 }
 

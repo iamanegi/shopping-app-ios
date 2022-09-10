@@ -18,6 +18,7 @@
 		1E295F7928CC8C8B00E7250B /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E295F7828CC8C8B00E7250B /* FruitCardView.swift */; };
 		1E295F7B28CC9F2A00E7250B /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E295F7A28CC9F2A00E7250B /* DetailsView.swift */; };
 		1E295F7D28CC9F4B00E7250B /* TopSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E295F7C28CC9F4B00E7250B /* TopSellingView.swift */; };
+		1E295F7F28CCB0F900E7250B /* NearYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E295F7E28CCB0F900E7250B /* NearYouView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		1E295F7828CC8C8B00E7250B /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		1E295F7A28CC9F2A00E7250B /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		1E295F7C28CC9F4B00E7250B /* TopSellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellingView.swift; sourceTree = "<group>"; };
+		1E295F7E28CCB0F900E7250B /* NearYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				1E295F7828CC8C8B00E7250B /* FruitCardView.swift */,
 				1E295F7A28CC9F2A00E7250B /* DetailsView.swift */,
 				1E295F7C28CC9F4B00E7250B /* TopSellingView.swift */,
+				1E295F7E28CCB0F900E7250B /* NearYouView.swift */,
 			);
 			path = HomeScreenUI;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				1E295F6F28CC820400E7250B /* OnboardingScreenView.swift in Sources */,
 				1E295F6128CC7F6400E7250B /* shoppingApp.swift in Sources */,
 				1E295F7928CC8C8B00E7250B /* FruitCardView.swift in Sources */,
+				1E295F7F28CCB0F900E7250B /* NearYouView.swift in Sources */,
 				1E295F7B28CC9F2A00E7250B /* DetailsView.swift in Sources */,
 				1E295F7528CC8AFE00E7250B /* ImageData.swift in Sources */,
 				1E295F7228CC82AF00E7250B /* HomeScreenView.swift in Sources */,
