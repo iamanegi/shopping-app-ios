@@ -9,7 +9,8 @@ import SwiftUI
 
 struct DetailsView: View {
     
-    @State var fruitName: Fruits
+    @State var fruit: FruitModel
+    let dummyFruit = FruitModel.init(id: 0, title: .apple, image: "apple", price: "$1.99 each", color: "1")
     
     var body: some View {
         VStack(alignment: .leading, spacing: 25) {
@@ -23,7 +24,7 @@ struct DetailsView: View {
                 .edgesIgnoringSafeArea(.top)
                 .shadow(color: .gray, radius: 5, y: 5)
                 .overlay(
-                    Image(fruitName.rawValue)
+                    Image(fruit.title.rawValue)
                         .resizable()
                         .frame(width: 200, height: 200, alignment: .center)
                         .shadow(color: .gray, radius: 5, x: 5, y: 5)
@@ -32,7 +33,7 @@ struct DetailsView: View {
             
             Spacer()
             
-            Text("\(fruitName.rawValue) - Medium")
+            Text("\(fruit.title.rawValue) - Medium")
                 .fontWeight(.medium)
                 .font(.title)
                 .padding(.horizontal)
@@ -68,7 +69,7 @@ struct DetailsView: View {
             
             HStack {
                 
-                Text("Rs. 120")
+                Text(fruit.price)
                     .fontWeight(.medium)
                     .font(.title)
                     .padding(.horizontal)
@@ -97,7 +98,7 @@ struct DetailsView: View {
 
 struct DetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailsView(fruitName: .dragonfruit)
+        DetailsView(fruit: dummyFruit)
     }
 }
 
